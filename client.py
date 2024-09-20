@@ -5,7 +5,7 @@ udp_client_socket = s.socket(s.AF_INET, s.SOCK_DGRAM)
 message = b"ciao"
 
 server_address = ("192.168.131.179", 6980)
-BUFFER_SIZE = 4092 #Quanti bit posso inviare o ricevere
+BUFFER_SIZE = 4092 
 
 udp_client_socket.sendto(message, server_address)
 
