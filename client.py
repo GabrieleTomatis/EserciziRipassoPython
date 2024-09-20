@@ -1,4 +1,3 @@
-
 import socket as s
 
 udp_client_socket = s.socket(s.AF_INET, s.SOCK_DGRAM)
