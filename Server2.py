@@ -1,6 +1,6 @@
 import socket as s
 
-server_address = ("192.168.65.103", 6980) #ip server + porta
+server_address = ("192.168.1.51", 6980) #ip server + porta
 BUFFER_SIZE = 4092 #grandezza buffer
 
 udp_server_socket = s.socket(s.AF_INET, s.SOCK_DGRAM)#uso ipv4 e udp
