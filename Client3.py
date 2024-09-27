@@ -3,7 +3,7 @@ import socket as s
 
 udp_client_socket = s.socket(s.AF_INET, s.SOCK_DGRAM)
 
-server_address = ("192.168.1.51", 6980)
+server_address = ("192.168.131.179", 6980)
 BUFFER_SIZE = 4092
 
 print("\nChat Client-Server: scrivi <arrivederci> per interrompere la connessione\n\n\n")
